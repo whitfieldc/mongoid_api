@@ -1,7 +1,7 @@
 class Ranking
   include Mongoid::Document
 
-  field :date, type: String
+  field :date
 
   embeds_many :apps
 end
