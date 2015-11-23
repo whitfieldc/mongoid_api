@@ -3,6 +3,6 @@
 ### routes
 ### **GET** "/rankings/:date/apps"
   * **params**
-    * `type` - options: `paid`, `free` (defaults to `paid`)
+    * `type` - options: `all`, `paid`, `free` (defaults to `all`)
     * `sort` - options: `downloads`, `revenue` (defaults to `downloads`)
     * `limit` - maximum number of items to return
