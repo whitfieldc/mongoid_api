@@ -1,8 +1,8 @@
-## Mongoid-api
+# App Rankings Mongoid api
 
-#### routes
-**GET** "/rankings/:date/apps"
-  * params
-    * `type` - options: `paid`, `free`; default: `paid`
-    * `sort` - options: `downloads`, `revenue`; default: `downloads`
+### routes
+### **GET** "/rankings/:date/apps"
+  * #### params
+    * `type` - options: `paid`, `free` (defaults to `paid`)
+    * `sort` - options: `downloads`, `revenue` (defaults to `downloads`)
     * `limit` - maximum number of items to return
