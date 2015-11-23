@@ -9,6 +9,11 @@
 
 require 'csv'
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'rankings.csv'))
-
-puts csv_text
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'rankings.csv'), encoding: "ISO8859-1")
+# puts csv_text
+# CSV.foreach(Rails.root.join('lib', 'seeds', 'rankings.csv'), encoding: "ISO8859-1") do |row|
+#   puts row
+# end
+csv = CSV.parse(csv_text, :headers => true)
+# inspect csv
+puts csv
