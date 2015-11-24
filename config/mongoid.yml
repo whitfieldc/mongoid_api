@@ -1,7 +1,7 @@
 production:
   clients:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] =>
+      uri: <%= ENV['MONGOLAB_URI'] %>
 
 development:
   # Configure available database clients. (required)
