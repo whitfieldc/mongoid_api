@@ -6,12 +6,12 @@ class App
   field :publisher
   field :icon_url
   field :link
-  field :avg_rating, type: Decimal
-  field :price, type: Decimal
+  field :avg_rating, type: Float
+  field :price, type: Float
   field :global_ratings, type: Integer
   field :in_country_ratings, type: Integer
   field :downloads, type: Integer
-  field :revenue, type: BigDecimal
+  field :revenue, type: Float
 
 
   embedded_in :product
