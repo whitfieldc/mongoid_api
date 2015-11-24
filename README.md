@@ -5,4 +5,4 @@
   * **params**
     * `type` - options: `all`, `paid`, `free` (defaults to `all`)
     * `sort` - options: `downloads`, `revenue` (defaults to `downloads`)
-    * `limit` - maximum number of items to return
+    * `limit` - maximum number of items to return (defaults to `400`)
