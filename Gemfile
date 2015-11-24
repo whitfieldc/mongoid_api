@@ -9,7 +9,7 @@ gem 'mongoid'
 
 gem 'spring', :group => :development
 
-
+gem 'rack-cors', :require => 'rack/cors'
 
 
 # To use ActiveModel has_secure_password
